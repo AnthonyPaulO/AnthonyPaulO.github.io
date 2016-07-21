@@ -3,7 +3,7 @@
    //alert('Hello world');
    }
 
-var serviceUrl = 'http://localhost:63791/api/test';
+var serviceUrl = 'https://localhost:44300/api/test';
 
 function sendRequest()
 {
