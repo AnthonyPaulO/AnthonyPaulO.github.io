@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="manifest.appcache">
+<head>
+   <title>Testing</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   <script type="text/javascript" src="scripts.js"></script>
+   <script language="javascript" type="text/javascript">
+      $(document).ready(onReady);
+   </script>
+</head>
+<body>
+   <div>
+      <select id="method">
+         <option value="get">GET</option>
+         <option value="post">POST</option>
+         <option value="put">PUT</option>
+      </select>
+      <input type="button" value="Try it" onclick="sendRequest()" />
+      <span id='value1'>(Result)</span>
+   </div>
+</body>
+</html>
